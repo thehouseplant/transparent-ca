@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Transparent California
+
+A rewrite of the Transparent California site using modern tools like [Next.js](https://nextjs.org/) and [shadcn/ui](https://ui.shadcn.com/). 
 
 ## Getting Started
 
