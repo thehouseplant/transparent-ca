@@ -18,31 +18,31 @@ export default function Header() {
           href="#"
           className="text-muted-foreground transition-colors hover:text-foreground"
         >
-          Dashboard
+          Home
         </Link>
         <Link
           href="#"
           className="text-muted-foreground transition-colors hover:text-foreground"
         >
-          Orders
+          About
         </Link>
         <Link
           href="#"
           className="text-muted-foreground transition-colors hover:text-foreground"
         >
-          Products
+          Blog
         </Link>
         <Link
           href="#"
           className="text-muted-foreground transition-colors hover:text-foreground"
         >
-          Customers
+          FAQ
         </Link>
         <Link
           href="#"
-          className="text-foreground transition-colors hover:text-foreground"
+          className="text-muted-foreground transition-colors hover:text-foreground"
         >
-          Settings
+          Contact
         </Link>
       </nav>
       <Sheet>
