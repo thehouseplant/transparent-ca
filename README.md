@@ -1,16 +1,17 @@
-# Fresh project
+# Transparent California
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+A rewrite of the Transparent California site using modern tools like [Deno](https://deno.com/), [Fresh](https://fresh.deno.dev/), and [Tailwind CSS](https://tailwindcss.com/).
 
-### Usage
+## Requirements
 
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
+- [Deno](https://deno.com/)
 
-Then start the project:
+## Getting Started
 
-```
+```zsh
+# Clone the repository
+git clone git@github.com:thehouseplant/transparent-ca.git
+
+# Run the application
 deno task start
 ```
-
-This will watch the project directory and restart as necessary.
