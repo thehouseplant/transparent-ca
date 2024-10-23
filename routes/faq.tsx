@@ -17,7 +17,15 @@ export default function FAQ() {
         <br class="mb-6" />
         <span class="font-bold">Who provides Transparent California?</span>
         <br class="mb-3" />
-        Transparent California is provided by Nevada Policy as a public service.
+        Transparent California is provided by{" "}
+        <a
+          href="http://npri.org/"
+          target="_blank"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          Nevada Policy
+        </a>{" "}
+        as a public service.
         <br class="mb-3" />
         Nevada Policy is a non-partisan think tank that focuses on, among other
         things, empowering citizens and elected officials with information they
@@ -25,11 +33,25 @@ export default function FAQ() {
         <br class="mb-3" />
         Transparent California relies on the generous support of individuals. If
         you would like to help support this site and ensure it is continually
-        updated, please consider making a donation today!
+        updated, please consider making a{" "}
+        <a
+          href="/donate"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          donation
+        </a>{" "}
+        today!
         <br class="mb-3" />
         If you would like to directly support data collection for an agency you
-        have an interest in, you can help by sponsoring data collection for that
-        agency, which puts their data collection into our highest priority.
+        have an interest in, you can help by{" "}
+        <a
+          href="/sponsor"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          sponsoring data collection
+        </a>{" "}
+        for that agency, which puts their data collection into our highest
+        priority.
         <br class="mb-6" />
         <span class="font-bold">
           Why does a Nevada-based research organization care about California?
@@ -47,8 +69,14 @@ export default function FAQ() {
         <br class="mb-3" />
         The information on Transparent California comes directly from government
         agencies and is obtained through public records requests, per the
-        California Public Records Act, California Government Code §§ 7920
-        through 7931.
+        <a
+          href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=7920.000.&lawCode=GOV"
+          target="_blank"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          California Public Records Act
+        </a>
+        , California Government Code §§ 7920 through 7931.
         <br class="mb-6" />
         <span class="font-bold">When will the data be updated?</span>
         <br class="mb-3" />
@@ -57,13 +85,28 @@ export default function FAQ() {
         The California Public Records Act limits us to asking for only existing
         data, we cannot ask an agency to create new data or new reporting for
         us. Accordingly, we tie our request timing to a reporting schedule
-        established by the State Controller's Office (SCO) Government
-        Compensation in California deadline for reporting data. We know after
-        this deadline they will have existing data responsive to our request.
+        established by the State Controller's Office (SCO){" "}
+        <a
+          href="https://publicpay.ca.gov/"
+          target="_blank"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          Government Compensation in California
+        </a>{" "}
+        deadline for reporting data. We know after this deadline they will have
+        existing data responsive to our request.
         <br class="mb-3" />
         For most agencies that deadline is April 30th of the year following. For
         K-12 school districts that deadline is June 30th. For more on these
-        requirements, click here.
+        requirements, click{" "}
+        <a
+          href="https://www.publicpay.ca.gov/reporting/"
+          target="_blank"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          here
+        </a>
+        .
         <br class="mb-3" />
         Pension systems are not a part of that system, however their data
         collection schedule usually coincides with our municipality collection
@@ -74,26 +117,72 @@ export default function FAQ() {
         necessary, receiving and processing the data files can then take most of
         a year for the Transparent California team.
         <br class="mb-3" />
-        If you would like to help support this effort, you can sponsor data
-        collection for any agencies you have a specific interest in directly.
-        Sponsored agencies take on the highest priority in our data collection
-        efforts, meaning their data may be collected and posted significantly
-        faster than they would be without sponsorship. Sponsors are credited for
-        their support on the agencies page, but sponsorship can be done
-        anonymously as well if preferred.
+        If you would like to help support this effort, you can{" "}
+        <a
+          href="/sponsor"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          sponsor data collection
+        </a>{" "}
+        for any agencies you have a specific interest in directly. Sponsored
+        agencies take on the highest priority in our data collection efforts,
+        meaning their data may be collected and posted significantly faster than
+        they would be without sponsorship. Sponsors are credited for their
+        support on the agencies page, but sponsorship can be done anonymously as
+        well if preferred.
         <br class="mb-3" />
-        To be notified when new data is uploaded for a specific agency, navigate
-        to that agency's page and click on the "Subscribe to this agency" link
-        located directly above the search box.
+        To be notified when new data is uploaded for a specific agency,{" "}
+        <a
+          href="/agencies/salaries"
+          target="_blank"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          navigate to that agency's page
+        </a>{" "}
+        and click on the "Subscribe to this agency" link located directly above
+        the search box.
         <br class="mb-3" />
-        You can also sign up to our mailing list, or follow our blog and Twitter
-        accounts, or follow our Facebook page to keep up-to-date on the latest
-        from Transparent California.
+        You can also{" "}
+        <a
+          href="/connect"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          sign up to our mailing list
+        </a>
+        , or follow our{" "}
+        <a
+          href="/blog"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          blog
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://x.com/Transparent_CA"
+          target="_blank"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          Twitter
+        </a>{" "}
+        accounts, or follow our{" "}
+        <a
+          href="https://www.facebook.com/transparentcalifornia"
+          target="_blank"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          Facebook
+        </a>{" "}
+        page to keep up-to-date on the latest from Transparent California.
         <br class="mb-3" />
         Transparent California relies on the generous support of donors to help
         keep the site online and constantly updated. If you value the site and
-        would like to see it continue, please consider making a tax-deductible
-        donation today!
+        would like to see it continue, please consider making a{" "}
+        <a
+          href="/donate"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          tax-deductible donation today!
+        </a>
         <br class="mb-3" />
         Occasionally we have an agency who either refuses to provide information
         or does not respond to our requests. If that has happened in any year
@@ -107,7 +196,14 @@ export default function FAQ() {
         clearly defined by state law as subject to disclosure, however some
         agencies do not want to comply with their legal obligations and require
         legal action. For a compendium of such efforts with links to associated
-        posts and news stories, click here!.
+        posts and news stories,{" "}
+        <a
+          href="https://docs.google.com/document/d/1MkRc9BLvH-zfxhRJCApO7TifeUbxNfpubX7UD8jk8Gc/edit?usp=sharing"
+          target="_blank"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          click here!
+        </a>
         <br class="mb-3" />
         As we all know, lawsuits are expensive, and if you would like to support
         such efforts please consider donating so we can do that when needed.
@@ -118,7 +214,14 @@ export default function FAQ() {
         </span>
         <br class="mb-3" />
         The public has a right to see this information, because government
-        officials work for the public. As the California Public Records Act
+        officials work for the public. As the{" "}
+        <a
+          href="https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=7.&chapter=3.5.&lawCode=GOV&title=1.&article=1"
+          target="_blank"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          California Public Records Act
+        </a>
         states, the Legislature “finds and declares that access to information
         concerning the conduct of the people's business is a fundamental and
         necessary right of every person in this state.”
@@ -134,7 +237,15 @@ export default function FAQ() {
         <br class="mb-3" />
         Yes. The California Public Records Act requires the publication of
         public employee names and salary information. More information on the
-        Act can be found here.
+        Act can be found{" "}
+        <a
+          href="https://www.calcities.org/resource/the-people's-business-a-guide-to-the-california-public-records-act"
+          target="_blank"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          here
+        </a>
+        .
         <br class="mb-6" />
         <span class="font-bold">
           Is it possible to remove a name from Transparent California?
@@ -170,7 +281,14 @@ export default function FAQ() {
         <br class="mb-3" />
         Transparent California uses uniform pay categories to mirror the
         categories used by the reporting agencies as much as possible,
-        particularly the categories required by the .State Controller’s Office
+        particularly the categories required by the{" "}
+        <a
+          href="https://publicpay.ca.gov/Reporting/"
+          target="_blank"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          State Controller’s Office
+        </a>
         standard template for reporting to them.
         <br class="mb-3" />
         For instance, the "Regular Pay" column is the amount reported under
@@ -190,8 +308,15 @@ export default function FAQ() {
         <br class="mb-3" />
         Transparent California has no detail on what components of pay are
         included in “Other Pay” for a given agency. If you have such questions,
-        we recommend you make a public records act request to the agency
-        directly.
+        we recommend you make a{" "}
+        <a
+          href="/blog/resources"
+          target="_blank"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          public records act request
+        </a>{" "}
+        to the agency directly.
         <br class="mb-3" />
         "Total benefits" consists of the employer-paid cost of health, dental
         and vision medical insurance and retirement contributions only. No
@@ -249,7 +374,15 @@ export default function FAQ() {
         Similarly, it does not appear for the agencies that continue to report
         their full retirement costs to Transparent California.
         <br class="mb-3" />
-        More on Unfunded Actuarial Liabilities can be found here.
+        More on Unfunded Actuarial Liabilities can be found{" "}
+        <a
+          href="https://www.ppic.org/publication/public-pension-liabilities-in-california/"
+          target="_blank"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          here
+        </a>
+        .
         <br class="mb-6" />
         <span class="font-bold">
           The downloadable files for some agencies indicate whether an employee
@@ -330,13 +463,19 @@ export default function FAQ() {
         years, but rest assured our goal is to obtain every bit of data from
         every agency possible.
         <br class="mb-3" />
-        If you would like to help support this effort, you can sponsor data
-        collection for any agencies you have a specific interest in directly.
-        Sponsored agencies take on the highest priority in our data collection
-        efforts, meaning their data may be collected and posted significantly
-        faster than they would be without sponsorship. Sponsors are credited for
-        their support on the agencies page, but sponsorship can be done
-        anonymously as well if preferred.
+        If you would like to help support this effort, you can{" "}
+        <a
+          href="/sponsor"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          sponsor data collection
+        </a>{" "}
+        for any agencies you have a specific interest in directly. Sponsored
+        agencies take on the highest priority in our data collection efforts,
+        meaning their data may be collected and posted significantly faster than
+        they would be without sponsorship. Sponsors are credited for their
+        support on the agencies page, but sponsorship can be done anonymously as
+        well if preferred.
         <br class="mb-3" />
         If an agency you are interested in is missing from our records, keep in
         mind you are able to make the same request that we do by sending them a
@@ -364,10 +503,22 @@ export default function FAQ() {
         <br class="mb-6" />
         <span class="font-bold">How can I contact Transparent California?</span>
         <br class="mb-3" />
-        You can email Transparent California here. If you are a member of the
-        media, please email us and put “Media” in the subject line and include
-        your questions, deadline and contact information, and we will respond as
-        soon as possible.
+        You can email Transparent California{" "}
+        <a
+          href="/contact"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          here
+        </a>
+        . If you are a member of the media, please{" "}
+        <a
+          href="/contact"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          email us
+        </a>{" "}
+        and put “Media” in the subject line and include your questions, deadline
+        and contact information, and we will respond as soon as possible.
       </p>
     </div>
   );
