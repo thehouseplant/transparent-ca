@@ -3,8 +3,14 @@ export default function Contact() {
     <div>
       <h1 class="text-3xl font-semibold mb-4">Contact</h1>
       <p class="text-gray-700 dark:text-gray-300">
-        Please read our <a href="/faq">Frequently Asked Questions (FAQ)</a> page
-        to see if your question has already been answered.
+        Please read our{" "}
+        <a
+          href="/faq"
+          class="text-gray-700 dark:text-gray-300 hover:text-blue-500 underline"
+        >
+          Frequently Asked Questions (FAQ)
+        </a>{" "}
+        page to see if your question has already been answered.
         <br class="mb-4" />
         <a
           href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=7920.000.&lawCode=GOV"
